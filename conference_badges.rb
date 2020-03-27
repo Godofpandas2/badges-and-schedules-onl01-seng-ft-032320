@@ -18,6 +18,7 @@ def assign_rooms(speakers)
   room_assignments = []
   speakers.each_with_index do |y, z|
     room_assignments << "Hello, #{y}! You'll be assigned to room #{z + 1}!"
+    binding.pry
   end
   room_assignments
 end
